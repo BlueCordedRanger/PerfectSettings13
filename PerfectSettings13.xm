@@ -1,5 +1,11 @@
 #import "PerfectSettings13.h"
 
+#import <Cephei/HBPreferences.h>
+
+static HBPreferences *pref;
+static BOOL disableEdgeToEdgeCells;
+static BOOL circleIcons;
+
 // ------------------------- BETTER SETTINGS UI -------------------------
 
 %group disableEdgeToEdgeCellsGroup
